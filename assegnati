@@ -1,1 +1,15 @@
+#ex 2
+lista=[1,2,3,4,5,6,7,8]
+for i in range (0,7,2):
+    print (i)
+    lista[i],lista[i+1]=lista[i+1],lista[i]
+print (lista)
 
+#ex 3
+segno=-1
+somma=0.0
+n=input('inserisci numero intero')
+for i in range(1,n+1):
+   somma += 1/i *segno
+   segno=segno *(-1)
+print (somma)   
